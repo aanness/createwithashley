@@ -1907,7 +1907,7 @@ figure a .text-overlay .info {
 /*	19. OWL CAROUSEL
 /*-----------------------------------------------------------------------------------*/
 .owl-theme .owl-controls .owl-nav [class*='owl-'] {
-    color: #FFF;
+    color: grey;
     margin: 0 3px;
     line-height: 1;
     font-size: 13px;
@@ -1948,7 +1948,7 @@ figure a .text-overlay .info {
     top: 50%;
     margin-top: -22px;
     pointer-events: auto;
-    color: rgba(255,255,255,0.6);
+    color: grey;
     line-height: 1;
     font-size: 40px;
     width: auto;
@@ -1960,7 +1960,7 @@ figure a .text-overlay .info {
     -moz-transition: all 200ms ease-in;
 }
 .custom-controls .owl-slider-controls .owl-slider-nav [class*='owl-']:hover {
-    color: rgba(255,255,255,1)
+    color: grey;
 }
 .custom-controls .owl-slider-controls .owl-slider-nav .owl-slider-prev {
     left: 10px
@@ -1976,6 +1976,7 @@ figure a .text-overlay .info {
     cursor: pointer;
 }
 .owl-theme .owl-dots .owl-dot span {
+    color: black;
     width: 12px;
     height: 12px;
     margin: 0 3px;
@@ -1989,7 +1990,7 @@ figure a .text-overlay .info {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: rgba(255,255,255,0.6)
+    background: grey;
 }
 /*
 .carousel-gallery-wrapper {
